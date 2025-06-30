@@ -1,0 +1,7 @@
+function findLargestUsingMathMax(num1, num2, num3) {
+  return Math.max(num1, num2, num3);
+}
+
+// Example usage
+const largestNumber1 = findLargestUsingMathMax(10, 5, 8);
+console.log("Largest number (Math.max):", largestNumber1); // Output: Largest number (Math.max): 10
